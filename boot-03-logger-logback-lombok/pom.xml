@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>hello</artifactId>
+	<artifactId>boot-02-logger</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hello</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Demo project for Spring Boot Logger</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -23,7 +23,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
